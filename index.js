@@ -46,5 +46,5 @@ app.get('/', (req, res) => {
 app.use('/auth/google', authRouter);
 app.use('/protected', protectedRouter);
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 9000;
 app.listen(port, () => console.log('App listening on port ' + port));
